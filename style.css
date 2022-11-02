@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+body {
+  background-color: #ffedd8;
+  color: #5e3719;
+  margin: 0;
+  height: 100%;
+  font-family: "Lora", serif;
+}
+
+header img {
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 5%;
+}
+nav ul {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  background: #5e3719;
+}
+nav li {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  display: inline;
+  background: #5e3719;
+}
+nav a {
+  text-decoration: none;
+  padding: 0.75rem;
+  color: white;
+}
+header {
+  background: linear-gradient(to bottom right, #e26d5c, #ffedd8, #e26d5c);
+}
+h1 {
+  font-size: 90px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  font-family: "Lora", serif;
+}
+.nav:hover {
+  background: #e26d5c;
+}
+.nav:active {
+  background: #fed0bb;
+}
+main {
+  margin-top: 0;
+  padding: 10px;
+  background: #ffedd8;
+  color: #5e3719;
+}
+main h2 {
+  font-size: 30px;
+  text-align: center;
+}
+main h3 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  font-size: 18px;
+  margin: 20px;
+  padding: 5px;
+  background-color: white;
+  display: inline-block;
+}
+footer {
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(#ffedd8, #e26d5c);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Lora", serif;
+}
+footer a {
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  color: #5e3719;
+}
+/* AUTHORS PHOTO UNEDITED*/
+.websitephotos {
+  width: 300px;
+}
+
+/* TABLE DESIGN EDITED*/
+table,
+td,
+th {
+  border: 1px solid black;
+  font-family: "Lora", serif;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+}
+table {
+  caption-side: bottom;
+  background-color: #ffedd8;
+  width: 100%;
+  margin: 15px, 15px;
+}
+thead {
+  background-color: #e26d5c;
+}
+figure {
+  border: none;
+  width: 300px;
+}
+ul li {
+  list-style-type: "💛";
+  text-align: center;
+}
+ol li {
+  list-style-type: "📖";
+  text-align: center;
+  text-decoration: underline;
+}
+hr {
+  border: none;
+  border-top: 3px dotted white;
+}
+
+dd {
+  background-color: white;
+  font-style: italic;
+}
+dt {
+  font-size: 18px;
+}
+span {
+  font-size: 14px;
+  font-style: italic;
+  background-color: white;
+}
+audio {
+  margin-left: 10px;
+  padding: 5px;
+}
+/* Css for the big container */
+.bigcontainer{
+  display: flex;
+}
